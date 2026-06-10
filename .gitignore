@@ -1,0 +1,12 @@
+# Ignore ZIP archives
+*.zip
+
+# Ignore local temporary/tool files
+find_git.js
+mingit.zip
+mingit/
+
+# Ignore Next.js build outputs and node modules
+photonics-workshop-website/node_modules/
+photonics-workshop-website/.next/
+photonics-workshop-website/out/
