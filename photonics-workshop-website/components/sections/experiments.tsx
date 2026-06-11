@@ -41,6 +41,20 @@ export default function ExperimentsSection() {
       description: 'Energy-efficient intelligent lighting systems using advanced photonic technologies.',
       image: '/photomat/images/experiments/home-lighting-solution.jpg',
       alt: 'Intelligent lighting systems demonstration'
+    },
+    {
+      id: 6,
+      title: 'Fiber Optic Splicer',
+      description: 'Advanced fiber optic splicing technology demonstrating high-precision light transmission and beam generation in optical communications.',
+      image: '/photomat/images/experiments/splicer.png',
+      alt: 'Fiber optic fusion splicer device'
+    },
+    {
+      id: 7,
+      title: 'Underwater Communication',
+      description: 'Cutting-edge underwater optical communication systems enabling reliable data transmission through water using advanced fiber optics.',
+      image: '/photomat/images/experiments/underwater-link.png',
+      alt: 'Underwater optical communication setup link'
     }
   ]
 
