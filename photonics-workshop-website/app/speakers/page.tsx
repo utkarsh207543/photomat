@@ -1,50 +1,65 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Mail, Globe } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Speakers() {
   const speakers = [
     {
-      name: 'Dr. Rajesh Kumar',
-      title: 'Director, IIT Guwahati',
-      institution: 'Indian Institute of Technology Guwahati',
-      expertise: 'Advanced Materials & Innovation',
-      bio: 'Leading researcher in advanced material science with 25+ years of experience in photonics and nanotechnology.'
+      name: 'Prof. Pavel Peterka',
+      title: 'Director, UFE',
+      institution: 'Institute of Photonics and Electronics, Czech Academy of Sciences',
+      expertise: 'Fiber Optics, Photonics',
+      bio: 'Leading researcher in active fiber devices, fiber lasers, and amplifiers with extensive contributions to optical physics.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pavel%20Peterka-9lUGAGLQGwcF3bBQIKWwjSDHebaoRq.jpg'
     },
     {
-      name: 'Prof. Maria Santos',
-      title: 'Chair of Photonics Research',
-      institution: 'European Photonics Institute',
-      expertise: 'Quantum Photonics',
-      bio: 'Pioneering work in quantum photonics and quantum information processing with contributions to breakthrough discoveries.'
+      name: 'Prof. Satishchandra B. Ogale',
+      title: 'Director, RISE',
+      institution: 'TCG-CREST, Kolkata',
+      expertise: 'Materials Science, Energy',
+      bio: 'Distinguished scientist with pioneering contributions to clean energy materials, functional oxides, and nanotechnology applications.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Satischandra%20B.%20Ogale-FEgVjJxcMl9GUursYjl0y3hYnt2M7h.jpg'
     },
     {
-      name: 'Dr. James Chen',
-      title: 'Senior Research Scientist',
-      institution: 'Silicon Valley Photonics Lab',
-      expertise: 'Integrated Photonics',
-      bio: 'Expert in integrated photonic circuits and optical interconnects for next-generation computing systems.'
-    },
-    {
-      name: 'Prof. Anil Verma',
-      title: 'Head of Optics Department',
-      institution: 'Defence Institute of Advanced Technology',
+      name: 'Prof. Rakesh R. Warrier',
+      title: 'Assistant Professor',
+      institution: 'Electrical Engineering, NIT Calicut',
       expertise: 'Optical Engineering',
-      bio: 'Renowned expert in optical system design and applications in defense and space technologies.'
+      bio: 'Expert in design and implementation of advanced optoelectronic sensors, optical networks, and instrumentation systems.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg'
     },
     {
-      name: 'Dr. Yuki Tanaka',
-      title: 'Chief Scientist',
-      institution: 'Japan Optical Technology Center',
-      expertise: 'Nanophotonics',
-      bio: 'Specialist in nanophotonic materials and metamaterials for advanced optical applications.'
+      name: 'Dr. Deepa Venkatesh',
+      title: 'Professor',
+      institution: 'Electrical Engineering, IIT Madras',
+      expertise: 'Optoelectronics, Materials',
+      bio: 'Leading researcher in fiber-optic communications, nonlinear optical processing, and high-speed optoelectronic devices.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dr%20Deepa%20Venkitesh-2KUYrKf7kKAMmNaOGT82OQITFH55GQ.jpg'
     },
     {
-      name: 'Prof. Sophia Müller',
-      title: 'Professor of Physics',
-      institution: 'Max Planck Institute',
-      expertise: 'Photonic Materials',
-      bio: 'Leading researcher in photonic crystal materials and their applications in light manipulation.'
+      name: 'Dr. P. K. Mukhopadhyay',
+      title: 'Scientific Officer H',
+      institution: 'RRCAT, Indore',
+      expertise: 'Advanced Research',
+      bio: 'Pioneered research in diode-pumped solid-state lasers, high-power lasers, and applications in defense and science.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr%20p%20k%20mukhopadhyay-CF8QSkUSu8w4VeoFbNVWwZQ8789d40.jpg'
+    },
+    {
+      name: 'Dr. Aditya Dharmadhikari',
+      title: 'Scientific Officer G',
+      institution: 'Nuclear and Atomic Physics, TIFR Mumbai',
+      expertise: 'Photonics, Physics',
+      bio: 'Prominent physicist researching ultra-short pulse laser interactions, nonlinear optics, and plasma diagnostics.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg'
+    },
+    {
+      name: 'Prof. Shailendra K. Varshney',
+      title: 'Professor',
+      institution: 'Department of Electronics & ECE, IIT Kharagpur',
+      expertise: 'Optics, Photonics, Optical Communication',
+      bio: 'Acclaimed researcher in photonic crystal fibers, optical microresonators, Kerr frequency combs, and integrated nanophotonics.',
+      image: '/photomat/images/speakers/shailendra-varshney.jpg'
     }
   ]
 
@@ -68,8 +83,15 @@ export default function Speakers() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {speakers.map((speaker, idx) => (
                 <div key={idx} className="rounded-lg border border-border bg-white overflow-hidden hover:shadow-lg transition-shadow">
-                  {/* Card Header */}
-                  <div className="h-24 bg-gradient-to-r from-primary/10 to-accent/10 relative"></div>
+                  {/* Card Header (Image) */}
+                  <div className="relative h-64 bg-gradient-to-br from-primary/10 to-accent/10">
+                    <Image
+                      src={speaker.image}
+                      alt={speaker.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                   
                   {/* Card Content */}
                   <div className="p-6 space-y-4">
