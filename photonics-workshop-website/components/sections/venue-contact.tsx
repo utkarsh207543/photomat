@@ -64,8 +64,12 @@ export default function VenueContact() {
           >
             <h3 className="text-2xl font-bold text-foreground">Workshop Venue</h3>
 
-            {/* Venue Card */}
-            <div className="p-6 bg-background border-2 border-primary/20 rounded-lg">
+            <a
+              href="https://maps.app.goo.gl/JbDLfz3uYkfhxRoZ6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-6 bg-background border-2 border-primary/20 rounded-lg hover:border-primary hover:shadow-md transition-all duration-300"
+            >
               <div className="flex gap-4 mb-4">
                 <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
@@ -84,9 +88,10 @@ export default function VenueContact() {
                   <p className="text-muted-foreground">
                     Maharashtra, India
                   </p>
+                  <p className="text-xs text-primary font-semibold mt-2">📍 Open in Google Maps</p>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Accommodation */}
             <div className="p-6 bg-primary/5 border border-primary/20 rounded-lg">

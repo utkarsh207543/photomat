@@ -176,7 +176,7 @@ export default function HeroSection() {
 
           {/* Card 2: Venue */}
           <a
-            href="https://maps.google.com/?q=18.423414502093404,73.75942873260523"
+            href="https://maps.app.goo.gl/JbDLfz3uYkfhxRoZ6"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-start gap-4 p-5 rounded-xl border border-border bg-white/40 backdrop-blur-md hover:bg-white/80 hover:border-primary/30 hover:shadow-lg transition-all duration-300 text-left cursor-pointer"
