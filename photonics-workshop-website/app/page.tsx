@@ -5,6 +5,7 @@ import Footer from '@/components/footer'
 import HeroSection from '@/components/sections/hero'
 import StatisticsSection from '@/components/sections/statistics'
 import AboutDiat from '@/components/sections/about-diat'
+import AboutAppliedPhysics from '@/components/sections/about-applied-physics'
 import AboutIITG from '@/components/sections/about-iitg'
 import DiatOpticaChapter from '@/components/sections/diat-optica-chapter'
 import KeyTopics from '@/components/sections/key-topics'
@@ -26,6 +27,7 @@ export default function Home() {
         <HeroSection />
         <StatisticsSection />
         <AboutDiat />
+        <AboutAppliedPhysics />
         <AboutIITG />
         <DiatOpticaChapter />
         <KeyTopics />
