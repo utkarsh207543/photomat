@@ -99,7 +99,7 @@ export default function VenueContact() {
             {/* Map */}
             <div className="relative h-80 rounded-lg overflow-hidden border border-border shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4968487527706!2d73.86890747520662!3d18.46854897254193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e9d5e5e5e5e5%3A0x5e5e5e5e5e5e5e5e!2sDIAT%20(Defence%20Institute%20of%20Advanced%20Technology)%2C%20Pune!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.428236166299!2d73.7572020752044!3d18.423328672528765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2961d15c92d53%3A0xe54fb712f275eb1f!2sDefence%20Institute%20of%20Advanced%20Technology!5e0!3m2!1sen!2sin!4v1718131234567"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
