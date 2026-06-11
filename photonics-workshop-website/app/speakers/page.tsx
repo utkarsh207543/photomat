@@ -30,7 +30,7 @@ export default function Speakers() {
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg'
     },
     {
-      name: 'Dr. Deepa Venkatesh',
+      name: 'Dr. Deepa Venkitesh',
       title: 'Professor',
       institution: 'Electrical Engineering, IIT Madras',
       expertise: 'Optoelectronics, Materials',

@@ -30,7 +30,7 @@ const speakers = [
   },
   {
     id: 4,
-    name: 'Dr. Deepa Venkatesh',
+    name: 'Dr. Deepa Venkitesh',
     title: 'Professor',
     institution: 'Electrical Engineering, IIT Madras',
     expertise: 'Optoelectronics, Materials',
