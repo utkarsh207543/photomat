@@ -99,7 +99,7 @@ export default function VenueContact() {
             {/* Map */}
             <div className="relative h-80 rounded-lg overflow-hidden border border-border shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.428236166299!2d73.7572020752044!3d18.423328672528765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2961d15c92d53%3A0xe54fb712f275eb1f!2sDefence%20Institute%20of%20Advanced%20Technology!5e0!3m2!1sen!2sin!4v1718131234567"
+                src="https://maps.google.com/maps?q=18.423414502093404,73.75942873260523&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
