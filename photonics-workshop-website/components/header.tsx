@@ -31,7 +31,7 @@ export default function Header() {
                 priority
               />
             </div>
-            <span className="text-base md:text-lg font-bold text-foreground hidden sm:inline">PHOTOMAT26</span>
+            <span className="text-base md:text-lg font-bold text-foreground">PHOTOMAT 2026</span>
           </Link>
 
           {/* Desktop Navigation */}

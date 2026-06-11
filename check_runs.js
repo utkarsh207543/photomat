@@ -1,34 +1,46 @@
-const url = 'https://api.github.com/repos/utkarsh207543/photomat/actions/runs';
+const runsUrl = 'https://api.github.com/repos/utkarsh207543/photomat/actions/runs';
+const headers = { 'User-Agent': 'Node-Fetch' };
 
-console.log("Fetching workflow runs...");
-fetch(url, {
-  headers: {
-    'User-Agent': 'Node-Fetch'
-  }
-})
-  .then(res => {
-    if (!res.ok) {
-      throw new Error(`HTTP error! Status: ${res.status}`);
-    }
-    return res.json();
-  })
+console.log("Checking workflow runs...");
+fetch(runsUrl, { headers })
+  .then(res => res.json())
   .then(data => {
     if (!data.workflow_runs || data.workflow_runs.length === 0) {
       console.log("No workflow runs found.");
       return;
     }
     
-    const runs = data.workflow_runs.map(run => ({
-      name: run.name,
-      status: run.status,
-      conclusion: run.conclusion,
-      created_at: run.created_at,
-      html_url: run.html_url
-    }));
+    // Find the latest "Deploy Next.js site to Pages" run
+    const customRun = data.workflow_runs.find(run => run.name === "Deploy Next.js site to Pages");
+    if (!customRun) {
+      console.log("No 'Deploy Next.js site to Pages' run found.");
+      return;
+    }
     
-    console.log("Workflow Runs:");
-    console.log(JSON.stringify(runs, null, 2));
+    console.log(`Latest Custom Run: ID ${customRun.id}, Status: ${customRun.status}, Conclusion: ${customRun.conclusion}`);
+    console.log(`URL: ${customRun.html_url}`);
+    
+    const jobsUrl = `https://api.github.com/repos/utkarsh207543/photomat/actions/runs/${customRun.id}/jobs`;
+    console.log(`\nFetching jobs from: ${jobsUrl}`);
+    
+    return fetch(jobsUrl, { headers });
+  })
+  .then(res => {
+    if (!res) return;
+    return res.json();
+  })
+  .then(data => {
+    if (!data || !data.jobs) return;
+    console.log("\nJobs and Steps Status:");
+    data.jobs.forEach(job => {
+      console.log(`- Job: ${job.name} (Status: ${job.status}, Conclusion: ${job.conclusion})`);
+      if (job.steps) {
+        job.steps.forEach(step => {
+          console.log(`  * Step: ${step.name} (Status: ${step.status}, Conclusion: ${step.conclusion})`);
+        });
+      }
+    });
   })
   .catch(err => {
-    console.error("Error fetching runs:", err.message);
+    console.error("Error:", err.message);
   });
