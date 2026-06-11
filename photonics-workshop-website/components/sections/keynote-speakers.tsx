@@ -52,6 +52,14 @@ const speakers = [
     expertise: 'Photonics, Physics',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg',
   },
+  {
+    id: 7,
+    name: 'Prof. Shailendra K. Varshney',
+    title: 'Professor',
+    institution: 'Department of Electronics & ECE, IIT Kharagpur',
+    expertise: 'Optics, Photonics, Optical Communication',
+    image: '/photomat/images/speakers/shailendra-varshney.jpg',
+  },
 ]
 
 export default function KeynoteSpeakers() {
