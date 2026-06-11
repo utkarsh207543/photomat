@@ -34,7 +34,7 @@ export default function Footer() {
               <li><a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About DIAT</a></li>
               <li><a href="#speakers" className="text-muted-foreground hover:text-foreground transition-colors">Speakers</a></li>
               <li><a href="#schedule" className="text-muted-foreground hover:text-foreground transition-colors">Activities</a></li>
-              <li><a href="#registration" className="text-muted-foreground hover:text-foreground transition-colors">Register</a></li>
+              <li><a href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">Register</a></li>
             </ul>
           </div>
 

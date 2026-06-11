@@ -16,7 +16,7 @@ export default function StatisticsSection() {
       description: 'Exclusive workshop experience'
     },
     {
-      number: '7',
+      number: '7+',
       label: 'Distinguished Speakers',
       description: 'Global research leaders'
     },

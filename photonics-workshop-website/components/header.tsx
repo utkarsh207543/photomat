@@ -50,11 +50,16 @@ export default function Header() {
           {/* Right Actions */}
           <div className="flex items-center gap-2">
             {/* Desktop CTA */}
-            <Link href="#registration" className="hidden md:block">
+            <a
+              href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:block"
+            >
               <button className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors duration-200">
                 Register Now
               </button>
-            </Link>
+            </a>
 
             {/* Mobile Menu Button */}
             <button
@@ -84,11 +89,17 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="#registration" className="block pt-2" onClick={() => setIsOpen(false)}>
+            <a
+              href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block pt-2"
+              onClick={() => setIsOpen(false)}
+            >
               <button className="w-full inline-flex items-center justify-center px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors duration-200">
                 Register Now
               </button>
-            </Link>
+            </a>
           </nav>
         )}
       </div>

@@ -95,7 +95,7 @@ export default function Registration() {
 
                   <div className="pt-4">
                     <a
-                      href="https://forms.gle/rZN8bn5nfXNauseh7"
+                      href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block w-full text-center px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 transition-all duration-200"
@@ -143,7 +143,7 @@ export default function Registration() {
             Registration closes on <span className="font-semibold text-foreground">September 10, 2026</span>
           </p>
           <a
-            href="https://forms.gle/rZN8bn5nfXNauseh7"
+            href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 hover:scale-105"

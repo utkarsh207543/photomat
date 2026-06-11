@@ -1,11 +1,40 @@
 'use client'
 
-import Link from 'next/link'
+import { useState } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowRight, Download } from 'lucide-react'
+import { ArrowRight, Download, Calendar, MapPin } from 'lucide-react'
 
 export default function HeroSection() {
+  const [isCalendarOpen, setIsCalendarOpen] = useState(false)
+
+  const downloadICS = () => {
+    const icsContent = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//PHOTOMAT2026//EN',
+      'BEGIN:VEVENT',
+      'UID:photomat2026-event',
+      'DTSTAMP:20260612T000000Z',
+      'DTSTART;VALUE=DATE:20261007',
+      'DTEND;VALUE=DATE:20261010',
+      'SUMMARY:International Workshop on Photonics and Optical Materials (PHOTOMAT 2026)',
+      'DESCRIPTION:International Workshop on Photonics and Optical Materials (PHOTOMAT 2026)',
+      'LOCATION:Defence Institute of Advanced Technology (DIAT), Pune, India',
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ].join('\r\n')
+
+    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.setAttribute('download', 'PHOTOMAT-2026-Workshop.ics')
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -91,23 +120,76 @@ export default function HeroSection() {
           </p>
         </motion.div>
 
-        {/* Event Details */}
-        <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-6 py-4">
-          <div className="flex items-center gap-2 text-foreground">
-            <span className="text-2xl">📅</span>
-            <div>
-              <p className="font-semibold">October 7-9, 2026</p>
-              <p className="text-sm text-muted-foreground">3 Days of Innovation</p>
-            </div>
+        {/* Event Details Cards */}
+        <motion.div
+          variants={itemVariants}
+          className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto py-6"
+        >
+          {/* Card 1: Calendar */}
+          <div className="relative">
+            <button
+              onClick={() => setIsCalendarOpen(!isCalendarOpen)}
+              className="w-full flex items-start gap-4 p-5 rounded-xl border border-border bg-white/40 backdrop-blur-md hover:bg-white/80 hover:border-primary/30 hover:shadow-lg transition-all duration-300 text-left cursor-pointer focus:outline-none"
+            >
+              <div className="flex-shrink-0 p-3 rounded-lg bg-primary/10 text-primary">
+                <Calendar className="w-6 h-6" />
+              </div>
+              <div className="space-y-1">
+                <p className="font-bold text-foreground text-lg">October 7–9, 2026</p>
+                <p className="text-sm text-muted-foreground leading-snug">3 Days of Innovation and networking</p>
+                <p className="text-xs text-primary font-semibold pt-1">📅 Add to Calendar</p>
+              </div>
+            </button>
+
+            {isCalendarOpen && (
+              <div className="absolute top-full left-0 mt-2 w-full bg-white dark:bg-card border border-border rounded-xl shadow-xl z-20 overflow-hidden divide-y divide-border">
+                <a
+                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=International+Workshop+on+Photonics+and+Optical+Materials+(PHOTOMAT+2026)&dates=20261007/20261010&details=International+Workshop+on+Photonics+and+Optical+Materials+(PHOTOMAT+2026)&location=Defence+Institute+of+Advanced+Technology+(DIAT),+Pune,+India"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsCalendarOpen(false)}
+                  className="flex items-center gap-3 px-4 py-3 text-sm text-foreground hover:bg-primary/10 transition-colors"
+                >
+                  <span className="text-base">📅</span> Google Calendar
+                </a>
+                <a
+                  href="https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=International+Workshop+on+Photonics+and+Optical+Materials+(PHOTOMAT+2026)&startdt=2026-10-07&enddt=2026-10-10&body=International+Workshop+on+Photonics+and+Optical+Materials+(PHOTOMAT+2026)&location=Defence+Institute+of+Advanced+Technology+(DIAT),+Pune,+India"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsCalendarOpen(false)}
+                  className="flex items-center gap-3 px-4 py-3 text-sm text-foreground hover:bg-primary/10 transition-colors"
+                >
+                  <span className="text-base">✉️</span> Outlook Calendar
+                </a>
+                <button
+                  onClick={() => {
+                    downloadICS()
+                    setIsCalendarOpen(false)
+                  }}
+                  className="w-full flex items-center gap-3 px-4 py-3 text-sm text-foreground hover:bg-primary/10 transition-colors text-left"
+                >
+                  <span className="text-base">💻</span> Apple Calendar (.ics)
+                </button>
+              </div>
+            )}
           </div>
-          <div className="h-12 w-px bg-border" />
-          <div className="flex items-center gap-2 text-foreground">
-            <span className="text-2xl">📍</span>
-            <div>
-              <p className="font-semibold">DIAT, Pune</p>
-              <p className="text-sm text-muted-foreground">Defence Institute</p>
+
+          {/* Card 2: Venue */}
+          <a
+            href="https://maps.google.com/?q=CQF5+7QF,Gorhe+BK,Girinagar,Pune,411025"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-start gap-4 p-5 rounded-xl border border-border bg-white/40 backdrop-blur-md hover:bg-white/80 hover:border-primary/30 hover:shadow-lg transition-all duration-300 text-left cursor-pointer"
+          >
+            <div className="flex-shrink-0 p-3 rounded-lg bg-primary/10 text-primary">
+              <MapPin className="w-6 h-6" />
             </div>
-          </div>
+            <div className="space-y-1">
+              <p className="font-bold text-foreground text-base leading-snug">Defence Institute of Advanced Technology (DIAT)</p>
+              <p className="text-sm text-muted-foreground leading-normal">Pune, Maharashtra, India</p>
+              <p className="text-xs text-primary font-semibold pt-1">📍 Open Google Maps</p>
+            </div>
+          </a>
         </motion.div>
 
         {/* CTA Buttons */}
@@ -115,12 +197,17 @@ export default function HeroSection() {
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-4 justify-center pt-8"
         >
-          <Link href="#registration" className="min-w-fit">
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 hover:shadow-lg hover:scale-105">
+          <a
+            href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-fit"
+          >
+            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
               Register Now
               <ArrowRight className="w-5 h-5" />
             </button>
-          </Link>
+          </a>
           <a
             href="/photomat/brochure/PHOTOMAT-2026.pdf"
             download="PHOTOMAT-2026.pdf"
