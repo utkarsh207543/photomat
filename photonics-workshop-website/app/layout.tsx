@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Join us for an international workshop on photonics and optical materials. October 7-9, 2026.',
     images: [
       {
-        url: 'https://photomat26.com/og-image.jpg',
+        url: 'https://photomat26.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'PHOTOMAT 2026 Workshop',
@@ -39,10 +39,6 @@ export const metadata: Metadata = {
       {
         url: '/icon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
       },
     ],
     apple: '/apple-icon.png',
