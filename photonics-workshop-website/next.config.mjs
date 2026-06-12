@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 // Automatically copy the brochure to the public/brochure/ folder at server startup
 try {
-  const src = path.resolve(__dirname, '..', 'Brochure PHOTOMAT 2026.pdf');
+  const src = path.resolve(__dirname, '..', 'Brochure PHOTOMAT 2026 Updated.pdf');
   const destDir = path.resolve(__dirname, 'public', 'brochure');
   const dest = path.resolve(destDir, 'PHOTOMAT-2026.pdf');
 
