@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-16 h-16">
                 <Image
-                  src="/photomat/images/photomat26-logo.png"
+                  src="/images/photomat26-logo.png"
                   alt="PHOTOMAT26"
                   fill
                   className="object-contain"
@@ -66,7 +66,7 @@ export default function Footer() {
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex items-center h-10">
                 <Image
-                  src="/photomat/images/optica-logo.png"
+                  src="/images/optica-logo.png"
                   alt="OPTICA"
                   width={100}
                   height={40}
@@ -75,7 +75,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center h-10">
                 <Image
-                  src="/photomat/images/iitg-tidf-logo.webp"
+                  src="/images/iitg-tidf-logo.webp"
                   alt="IITG TIDF"
                   width={120}
                   height={40}
@@ -84,7 +84,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center h-10">
                 <Image
-                  src="/photomat/images/diat-logo.png"
+                  src="/images/diat-logo.png"
                   alt="DIAT"
                   width={120}
                   height={40}
@@ -93,7 +93,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center h-10">
                 <Image
-                  src="/photomat/images/drdo-logo.svg"
+                  src="/images/drdo-logo.svg"
                   alt="DRDO"
                   width={120}
                   height={40}

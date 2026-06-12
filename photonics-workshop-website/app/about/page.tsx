@@ -102,7 +102,7 @@ export default function About() {
                 <div className="p-6 rounded-lg border border-border bg-white space-y-4">
                   <div className="relative h-16 w-full">
                     <Image
-                      src="/photomat/images/iitg-tidf-logo.webp"
+                      src="/images/iitg-tidf-logo.webp"
                       alt="IITG TIDF"
                       fill
                       className="object-contain"
@@ -119,7 +119,7 @@ export default function About() {
                 <div className="p-6 rounded-lg border border-border bg-white space-y-4">
                   <div className="relative h-16 w-full">
                     <Image
-                      src="/photomat/images/optica-logo.png"
+                      src="/images/optica-logo.png"
                       alt="OPTICA"
                       fill
                       className="object-contain"
@@ -136,7 +136,7 @@ export default function About() {
                 <div className="p-6 rounded-lg border border-border bg-white space-y-4">
                   <div className="relative h-16 w-full">
                     <Image
-                      src="/photomat/images/diat-logo.png"
+                      src="/images/diat-logo.png"
                       alt="DIAT"
                       fill
                       className="object-contain"
@@ -153,7 +153,7 @@ export default function About() {
                 <div className="p-6 rounded-lg border border-border bg-white space-y-4">
                   <div className="relative h-16 w-full">
                     <Image
-                      src="/photomat/images/drdo-logo.svg"
+                      src="/images/drdo-logo.svg"
                       alt="DRDO"
                       fill
                       className="object-contain"

@@ -11,49 +11,49 @@ export default function ExperimentsSection() {
       id: 1,
       title: 'OLED Devices',
       description: 'Advanced optoelectronic devices for next-generation displays and lighting systems.',
-      image: '/photomat/images/experiments/oled.jpg',
+      image: '/images/experiments/oled.jpg',
       alt: 'OLED display technology experiment'
     },
     {
       id: 2,
       title: 'Quantum Dots',
       description: 'Laser-assisted synthesis and characterization of semiconductor quantum dots.',
-      image: '/photomat/images/experiments/quantum-dots.jpg',
+      image: '/images/experiments/quantum-dots.jpg',
       alt: 'Quantum dots laser-assisted synthesis'
     },
     {
       id: 3,
       title: 'Pulsed Laser Deposition',
       description: 'Thin-film fabrication using high-energy pulsed laser deposition techniques.',
-      image: '/photomat/images/experiments/pulsed-laser-deposition.png',
+      image: '/images/experiments/pulsed-laser-deposition.png',
       alt: 'Thin-film PLD chamber setup'
     },
     {
       id: 4,
       title: 'Photodetectors',
       description: 'Development and characterization of high-performance optical sensing devices.',
-      image: '/photomat/images/experiments/photodetectors.jpg',
+      image: '/images/experiments/photodetectors.jpg',
       alt: 'High-performance optical sensing device'
     },
     {
       id: 5,
       title: 'Smart Home Lighting Solutions',
       description: 'Energy-efficient intelligent lighting systems using advanced photonic technologies.',
-      image: '/photomat/images/experiments/home-lighting-solution.jpg',
+      image: '/images/experiments/home-lighting-solution.jpg',
       alt: 'Intelligent lighting systems demonstration'
     },
     {
       id: 6,
       title: 'Fiber Optic Splicer',
       description: 'Advanced fiber optic splicing technology demonstrating high-precision light transmission and beam generation in optical communications.',
-      image: '/photomat/images/experiments/splicer.png',
+      image: '/images/experiments/splicer.png',
       alt: 'Fiber optic fusion splicer device'
     },
     {
       id: 7,
       title: 'Underwater Communication',
       description: 'Cutting-edge underwater optical communication systems enabling reliable data transmission through water using advanced fiber optics.',
-      image: '/photomat/images/experiments/underwater-link.png',
+      image: '/images/experiments/underwater-link.png',
       alt: 'Underwater optical communication setup link'
     }
   ]

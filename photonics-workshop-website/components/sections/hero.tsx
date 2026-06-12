@@ -96,7 +96,7 @@ export default function HeroSection() {
           <div className="flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <Image
-                src="/photomat/images/photomat26-logo.png"
+                src="/images/photomat26-logo.png"
                 alt="PHOTOMAT26"
                 fill
                 className="object-contain"
@@ -209,7 +209,7 @@ export default function HeroSection() {
             </button>
           </a>
           <a
-            href="/photomat/brochure/PHOTOMAT-2026.pdf"
+            href="/brochure/PHOTOMAT-2026.pdf"
             download="PHOTOMAT-2026.pdf"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-200"
           >

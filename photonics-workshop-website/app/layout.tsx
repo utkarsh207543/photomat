@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://photomat2026.com',
+    url: 'https://photomat26.com',
     siteName: 'PHOTOMAT 2026',
     title: 'PHOTOMAT 2026 - International Workshop on Photonics and Optical Materials',
     description: 'Join us for an international workshop on photonics and optical materials. October 7-9, 2026.',
     images: [
       {
-        url: 'https://photomat2026.com/og-image.jpg',
+        url: 'https://photomat26.com/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'PHOTOMAT 2026 Workshop',

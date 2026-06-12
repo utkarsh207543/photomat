@@ -67,7 +67,6 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/photomat',
   typescript: {
     ignoreBuildErrors: true,
   },

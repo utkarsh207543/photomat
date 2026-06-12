@@ -74,7 +74,7 @@ export default function AboutAppliedPhysics() {
             className="relative h-[400px] rounded-lg overflow-hidden shadow-lg order-1 md:order-2"
           >
             <Image
-              src="/photomat/images/diat-applied-physics.jpg"
+              src="/images/diat-applied-physics.jpg"
               alt="DIAT Applied Physics Department"
               fill
               className="object-cover"

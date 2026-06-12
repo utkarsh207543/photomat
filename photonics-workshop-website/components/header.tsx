@@ -24,7 +24,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <div className="relative w-20 h-20 md:w-24 md:h-24 flex-shrink-0">
               <Image
-                src="/photomat/images/photomat26-logo.png"
+                src="/images/photomat26-logo.png"
                 alt="PHOTOMAT26"
                 fill
                 className="object-contain"

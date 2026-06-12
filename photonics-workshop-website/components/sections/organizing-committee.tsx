@@ -7,12 +7,12 @@ const chiefPatrons = [
   {
     name: 'Dr. B. H. V. S. Narayana Murthy',
     title: 'Vice Chancellor, DIAT Pune',
-    image: '/photomat/images/patrons/murthy.jpg',
+    image: '/images/patrons/murthy.jpg',
   },
   {
     name: 'Dr. Jagannath Nayak',
     title: 'Director, CHESS Hyderabad',
-    image: '/photomat/images/patrons/nayak.jpg',
+    image: '/images/patrons/nayak.jpg',
   },
 ]
 

@@ -58,7 +58,7 @@ const speakers = [
     title: 'Professor',
     institution: 'Department of Electronics & ECE, IIT Kharagpur',
     expertise: 'Optics, Photonics, Optical Communication',
-    image: '/photomat/images/speakers/shailendra-varshney.jpg',
+    image: '/images/speakers/shailendra-varshney.jpg',
   },
 ]
 

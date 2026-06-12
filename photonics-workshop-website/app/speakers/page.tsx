@@ -59,7 +59,7 @@ export default function Speakers() {
       institution: 'Department of Electronics & ECE, IIT Kharagpur',
       expertise: 'Optics, Photonics, Optical Communication',
       bio: 'Acclaimed researcher in photonic crystal fibers, optical microresonators, Kerr frequency combs, and integrated nanophotonics.',
-      image: '/photomat/images/speakers/shailendra-varshney.jpg'
+      image: '/images/speakers/shailendra-varshney.jpg'
     }
   ]
 
