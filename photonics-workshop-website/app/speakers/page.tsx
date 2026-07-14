@@ -30,15 +30,7 @@ export default function Speakers() {
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Satischandra%20B.%20Ogale-FEgVjJxcMl9GUursYjl0y3hYnt2M7h.jpg'
     },
     {
-      name: 'Prof. Rakesh R. Warrier',
-      title: 'Assistant Professor',
-      institution: 'Electrical Engineering, NIT Calicut',
-      expertise: 'Optical Engineering',
-      bio: 'Expert in design and implementation of advanced optoelectronic sensors, optical networks, and instrumentation systems.',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg'
-    },
-    {
-      name: 'Dr. Deepa Venkitesh',
+      name: 'Prof. Deepa Venkitesh',
       title: 'Professor',
       institution: 'Electrical Engineering, IIT Madras',
       expertise: 'Optoelectronics, Materials',
@@ -68,6 +60,14 @@ export default function Speakers() {
       expertise: 'Optics, Photonics, Optical Communication',
       bio: 'Acclaimed researcher in photonic crystal fibers, optical microresonators, Kerr frequency combs, and integrated nanophotonics.',
       image: '/images/speakers/shailendra-varshney.jpg'
+    },
+    {
+      name: 'Dr. Rakesh R. Warrier',
+      title: 'Assistant Professor',
+      institution: 'Electrical Engineering, NIT Calicut',
+      expertise: 'Optical Engineering',
+      bio: 'Expert in design and implementation of advanced optoelectronic sensors, optical networks, and instrumentation systems.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg'
     }
   ]
 

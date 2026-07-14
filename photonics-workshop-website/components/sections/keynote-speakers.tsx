@@ -30,22 +30,14 @@ const speakers = [
   },
   {
     id: 4,
-    name: 'Prof. Rakesh R. Warrier',
-    title: 'Assistant Professor',
-    institution: 'Electrical Engineering, NIT Calicut',
-    expertise: 'Optical Engineering',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg',
-  },
-  {
-    id: 5,
-    name: 'Dr. Deepa Venkitesh',
+    name: 'Prof. Deepa Venkitesh',
     title: 'Professor',
     institution: 'Electrical Engineering, IIT Madras',
     expertise: 'Optoelectronics, Materials',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dr%20Deepa%20Venkitesh-2KUYrKf7kKAMmNaOGT82OQITFH55GQ.jpg',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Dr. P. K. Mukhopadhyay',
     title: 'Scientific Officer H',
     institution: 'RRCAT, Indore',
@@ -53,7 +45,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr%20p%20k%20mukhopadhyay-CF8QSkUSu8w4VeoFbNVWwZQ8789d40.jpg',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Dr. Aditya Dharmadhikari',
     title: 'Scientific Officer G',
     institution: 'Nuclear and Atomic Physics, TIFR Mumbai',
@@ -61,12 +53,20 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg',
   },
   {
-    id: 8,
+    id: 7,
     name: 'Prof. Shailendra K. Varshney',
     title: 'Professor',
     institution: 'Department of Electronics & ECE, IIT Kharagpur',
     expertise: 'Optics, Photonics, Optical Communication',
     image: '/images/speakers/shailendra-varshney.jpg',
+  },
+  {
+    id: 8,
+    name: 'Dr. Rakesh R. Warrier',
+    title: 'Assistant Professor',
+    institution: 'Electrical Engineering, NIT Calicut',
+    expertise: 'Optical Engineering',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg',
   },
 ]
 
