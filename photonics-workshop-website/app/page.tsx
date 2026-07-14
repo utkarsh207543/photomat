@@ -7,6 +7,7 @@ import StatisticsSection from '@/components/sections/statistics'
 import AboutDiat from '@/components/sections/about-diat'
 import AboutAppliedPhysics from '@/components/sections/about-applied-physics'
 import AboutIITG from '@/components/sections/about-iitg'
+import SensorsResearchSociety from '@/components/sections/sensors-research-society'
 import DiatOpticaChapter from '@/components/sections/diat-optica-chapter'
 import KeyTopics from '@/components/sections/key-topics'
 import ExperimentsSection from '@/components/sections/experiments'
@@ -29,6 +30,7 @@ export default function Home() {
         <AboutDiat />
         <AboutAppliedPhysics />
         <AboutIITG />
+        <SensorsResearchSociety />
         <DiatOpticaChapter />
         <KeyTopics />
         <ExperimentsSection />

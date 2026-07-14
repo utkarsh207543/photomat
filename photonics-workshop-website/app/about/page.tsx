@@ -166,6 +166,23 @@ export default function About() {
                     </p>
                   </div>
                 </div>
+
+                <div className="p-6 rounded-lg border border-border bg-white space-y-4">
+                  <div className="relative h-16 w-full">
+                    <Image
+                      src="/images/srs-logo.jpg"
+                      alt="Sensors Research Society"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">SRS</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Sensors Research Society, formed to promote and foster the development of sensors by encouraging widespread dissemination of technical information.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -104,6 +104,15 @@ export default function Footer() {
                   className="object-contain h-full"
                 />
               </div>
+              <div className="flex items-center h-10">
+                <Image
+                  src="/images/srs-logo.jpg"
+                  alt="SRS"
+                  width={40}
+                  height={40}
+                  className="object-contain h-full rounded-full"
+                />
+              </div>
             </div>
           </div>
         </div>
