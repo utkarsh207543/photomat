@@ -67,50 +67,50 @@ export default function Footer() {
           {/* Partners */}
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Sponsors</h4>
-            <div className="flex flex-wrap gap-4 items-center">
-              <div className="flex items-center h-10">
+            <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-2 gap-3 items-center mt-2">
+              <div className="flex items-center justify-center h-12 w-full bg-white/90 rounded-lg p-1.5 shadow-sm border border-border/40">
                 <Image
                   src="/images/optica-logo.png"
                   alt="OPTICA"
-                  width={100}
-                  height={40}
-                  className="object-contain h-full"
+                  width={90}
+                  height={32}
+                  className="object-contain max-h-full"
                 />
               </div>
-              <div className="flex items-center h-10">
+              <div className="flex items-center justify-center h-12 w-full bg-white/90 rounded-lg p-1.5 shadow-sm border border-border/40">
                 <Image
                   src="/images/iitg-tidf-logo.webp"
                   alt="IITG TIDF"
-                  width={120}
-                  height={40}
-                  className="object-contain h-full"
+                  width={90}
+                  height={32}
+                  className="object-contain max-h-full"
                 />
               </div>
-              <div className="flex items-center h-10">
+              <div className="flex items-center justify-center h-12 w-full bg-white/90 rounded-lg p-1.5 shadow-sm border border-border/40">
                 <Image
                   src="/images/diat-logo.png"
                   alt="DIAT"
-                  width={120}
+                  width={40}
                   height={40}
-                  className="object-contain h-full"
+                  className="object-contain max-h-full"
                 />
               </div>
-              <div className="flex items-center h-10">
+              <div className="flex items-center justify-center h-12 w-full bg-white/90 rounded-lg p-1.5 shadow-sm border border-border/40">
                 <Image
                   src="/images/drdo-logo.svg"
                   alt="DRDO"
-                  width={120}
+                  width={40}
                   height={40}
-                  className="object-contain h-full"
+                  className="object-contain max-h-full"
                 />
               </div>
-              <div className="flex items-center h-10">
+              <div className="flex items-center justify-center h-12 w-full bg-white/90 rounded-lg p-1.5 shadow-sm border border-border/40 col-span-1 sm:col-span-1 md:col-span-2">
                 <Image
                   src="/images/srs-logo.jpg"
                   alt="SRS"
                   width={40}
                   height={40}
-                  className="object-contain h-full rounded-full"
+                  className="object-contain max-h-full rounded-full"
                 />
               </div>
             </div>
