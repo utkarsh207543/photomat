@@ -5,6 +5,11 @@ import { MapPin, Phone, Mail } from 'lucide-react'
 
 const coordinators = [
   {
+    name: 'Kiran Kumbhar',
+    phone: '+91 8806865230',
+    role: 'Coordinator',
+  },
+  {
     name: 'Naveen Kumar',
     phone: '+91 7428964562',
     role: 'Coordinator',
