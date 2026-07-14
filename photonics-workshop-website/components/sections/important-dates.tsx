@@ -12,7 +12,7 @@ const dates = [
     icon: '🔴',
   },
   {
-    date: 'September 21, 2026',
+    date: 'September 17, 2026',
     event: 'Selection Intimation',
     description: 'Shortlisted participants will be notified via email',
     priority: false,

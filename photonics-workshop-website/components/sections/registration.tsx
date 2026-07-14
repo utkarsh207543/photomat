@@ -18,13 +18,13 @@ const categories = [
   },
   {
     category: 'Academia/Faculty',
-    fee: '₹3,540',
+    fee: '₹4,720',
     color: 'from-purple-500 to-pink-500',
     description: 'University faculty and researchers',
   },
   {
-    category: 'Industry Professionals',
-    fee: '₹4,700',
+    category: 'Industry Professionals and DRDO Scientist',
+    fee: '₹7,080',
     color: 'from-orange-500 to-red-500',
     description: 'Industry experts and professionals',
   },
