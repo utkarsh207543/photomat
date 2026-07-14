@@ -14,6 +14,14 @@ const speakers = [
   },
   {
     id: 2,
+    name: 'Prof. Eden Valentin Figueroa Barragan',
+    title: 'Professor & Director',
+    institution: 'Stony Brook Quantum Institute (Joint Appointment Brookhaven National Laboratory)',
+    expertise: 'Quantum information and technology',
+    image: '/images/speakers/eden-figueroa.jpg',
+  },
+  {
+    id: 3,
     name: 'Prof. Satishchandra B. Ogale',
     title: 'Director, RISE',
     institution: 'TCG-CREST, Kolkata',
@@ -21,7 +29,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Satischandra%20B.%20Ogale-FEgVjJxcMl9GUursYjl0y3hYnt2M7h.jpg',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Prof. Rakesh R. Warrier',
     title: 'Assistant Professor',
     institution: 'Electrical Engineering, NIT Calicut',
@@ -29,7 +37,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rakesh%20warrier-vlrwjWNIifHCZD2bQ7wCpwmHqAeYbn.jpg',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Dr. Deepa Venkitesh',
     title: 'Professor',
     institution: 'Electrical Engineering, IIT Madras',
@@ -37,7 +45,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dr%20Deepa%20Venkitesh-2KUYrKf7kKAMmNaOGT82OQITFH55GQ.jpg',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Dr. P. K. Mukhopadhyay',
     title: 'Scientific Officer H',
     institution: 'RRCAT, Indore',
@@ -45,7 +53,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr%20p%20k%20mukhopadhyay-CF8QSkUSu8w4VeoFbNVWwZQ8789d40.jpg',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Dr. Aditya Dharmadhikari',
     title: 'Scientific Officer G',
     institution: 'Nuclear and Atomic Physics, TIFR Mumbai',
@@ -53,7 +61,7 @@ const speakers = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Prof. Shailendra K. Varshney',
     title: 'Professor',
     institution: 'Department of Electronics & ECE, IIT Kharagpur',

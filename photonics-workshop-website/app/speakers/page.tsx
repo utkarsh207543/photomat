@@ -14,6 +14,14 @@ export default function Speakers() {
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pavel%20Peterka-9lUGAGLQGwcF3bBQIKWwjSDHebaoRq.jpg'
     },
     {
+      name: 'Prof. Eden Valentin Figueroa Barragan',
+      title: 'Professor & Director',
+      institution: 'Stony Brook Quantum Institute (Joint Appointment Brookhaven National Laboratory)',
+      expertise: 'Quantum information and technology',
+      bio: 'Professor of Physics and Director of the Stony Brook Quantum Institute. Joint Appointment Brookhaven National Laboratory.',
+      image: '/images/speakers/eden-figueroa.jpg'
+    },
+    {
       name: 'Prof. Satishchandra B. Ogale',
       title: 'Director, RISE',
       institution: 'TCG-CREST, Kolkata',
