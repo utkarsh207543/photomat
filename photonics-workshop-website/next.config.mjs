@@ -7,9 +7,9 @@ const __dirname = path.dirname(__filename);
 
 // Automatically copy the brochure to the public/brochure/ folder at server startup
 try {
-  const src = path.resolve(__dirname, '..', 'Brochure PHOTOMAT 2026 Updated.pdf');
+  const src = path.resolve(__dirname, '..', 'PhotoMat26.pdf');
   const destDir = path.resolve(__dirname, 'public', 'brochure');
-  const dest = path.resolve(destDir, 'PHOTOMAT-2026.pdf');
+  const dest = path.resolve(destDir, 'PhotoMat26.pdf');
 
   if (fs.existsSync(src)) {
     if (!fs.existsSync(destDir)) {
@@ -45,7 +45,7 @@ try {
   }
 
   // Clean up the route handler file if it exists, to avoid conflicts
-  const routeFile = path.resolve(__dirname, 'app', 'brochure', 'PHOTOMAT-2026.pdf', 'route.ts');
+  const routeFile = path.resolve(__dirname, 'app', 'brochure', 'PhotoMat26.pdf', 'route.ts');
   if (fs.existsSync(routeFile)) {
     fs.unlinkSync(routeFile);
     console.log('Successfully removed conflicting route handler file.');

@@ -102,7 +102,9 @@ export default function VenueContact() {
             <div className="p-6 bg-primary/5 border border-primary/20 rounded-lg">
               <h4 className="font-semibold text-foreground mb-2">Accommodation</h4>
               <p className="text-muted-foreground">
-                No accommodation will be provided. No separate Travel Allowance (TA) or Daily Allowance (DA) will be provided.
+                Accommodation will be available on a payment basis, subject to availability, at discounted rates*.
+                <br />
+                No separate Travel Allowance (TA) or Daily Allowance (DA) will be provided.
               </p>
             </div>
 

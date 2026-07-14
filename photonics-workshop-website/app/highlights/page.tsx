@@ -193,7 +193,9 @@ export default function Highlights() {
               <div className="space-y-3">
                 <h3 className="text-xl font-semibold text-foreground">Accommodation</h3>
                 <p className="text-muted-foreground">
-                  No accommodation is provided. Participants must arrange their own lodging.
+                  Accommodation will be available on a payment basis, subject to availability, at discounted rates*.
+                  <br />
+                  No separate Travel Allowance (TA) or Daily Allowance (DA) will be provided.
                 </p>
               </div>
               <div className="space-y-3">

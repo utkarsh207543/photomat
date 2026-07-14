@@ -120,7 +120,7 @@ export default function ImportantDates() {
             <div>
               <h4 className="font-semibold text-foreground mb-2">Note</h4>
               <p className="text-muted-foreground text-sm">
-                Limited seats available. Early registration is recommended. Please note that no accommodation will be provided.
+                Limited seats available. Early registration is recommended. Please note that accommodation will be available on a payment basis, subject to availability, at discounted rates*. No separate Travel Allowance (TA) or Daily Allowance (DA) will be provided.
               </p>
             </div>
           </div>

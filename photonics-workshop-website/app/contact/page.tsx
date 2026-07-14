@@ -241,7 +241,7 @@ export default function Contact() {
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-foreground">Is accommodation provided?</h3>
                 <p className="text-muted-foreground">
-                  No accommodation will be provided by the organizers. Participants must arrange their own lodging.
+                  Accommodation will be available on a payment basis, subject to availability, at discounted rates*. No separate Travel Allowance (TA) or Daily Allowance (DA) will be provided.
                 </p>
               </div>
             </div>
