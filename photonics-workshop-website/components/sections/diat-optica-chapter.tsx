@@ -35,7 +35,7 @@ export default function DiatOpticaChapter() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/diat%20optica%20student%20chapter-YlMYlT0o9zqNjwV4TBpRPxhnnHMVyW.png"
               alt="Student Chapter"
               fill
-              className="object-cover"
+              className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </motion.div>
 

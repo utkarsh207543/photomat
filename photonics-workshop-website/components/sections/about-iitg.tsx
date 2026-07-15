@@ -77,7 +77,7 @@ export default function AboutIITG() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IITG-O1uYxbK4Km7OREEEY4VTy9IpAMzETz.png"
               alt="IITG Campus"
               fill
-              className="object-cover"
+              className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </motion.div>
         </div>

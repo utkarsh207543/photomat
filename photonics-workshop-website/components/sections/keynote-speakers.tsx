@@ -5,14 +5,6 @@ import Image from 'next/image'
 
 const speakers = [
   {
-    id: 1,
-    name: 'Prof. Pavel Peterka',
-    title: 'Director, UFE',
-    institution: 'Institute of Photonics and Electronics, Czech Academy of Sciences',
-    expertise: 'Fiber Optics, Photonics',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pavel%20Peterka-9lUGAGLQGwcF3bBQIKWwjSDHebaoRq.jpg',
-  },
-  {
     id: 2,
     name: 'Prof. Eden Valentin Figueroa Barragan',
     title: 'Professor & Director',
@@ -47,7 +39,7 @@ const speakers = [
   {
     id: 6,
     name: 'Dr. Aditya Dharmadhikari',
-    title: 'Scientific Officer G',
+    title: 'Scientific Officer F',
     institution: 'Nuclear and Atomic Physics, TIFR Mumbai',
     expertise: 'Photonics, Physics',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg',

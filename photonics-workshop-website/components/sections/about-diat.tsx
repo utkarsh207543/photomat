@@ -20,7 +20,7 @@ export default function AboutDiat() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DIAT-D97QrzUGhIJrhCPO8zsrEOXTcseqXN.avif"
               alt="DIAT Campus"
               fill
-              className="object-cover"
+              className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </motion.div>
 

@@ -6,14 +6,6 @@ import Image from 'next/image'
 export default function Speakers() {
   const speakers = [
     {
-      name: 'Prof. Pavel Peterka',
-      title: 'Director, UFE',
-      institution: 'Institute of Photonics and Electronics, Czech Academy of Sciences',
-      expertise: 'Fiber Optics, Photonics',
-      bio: 'Leading researcher in active fiber devices, fiber lasers, and amplifiers with extensive contributions to optical physics.',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pavel%20Peterka-9lUGAGLQGwcF3bBQIKWwjSDHebaoRq.jpg'
-    },
-    {
       name: 'Prof. Eden Valentin Figueroa Barragan',
       title: 'Professor & Director',
       institution: 'Stony Brook Quantum Institute (Joint Appointment Brookhaven National Laboratory)',
@@ -47,7 +39,7 @@ export default function Speakers() {
     },
     {
       name: 'Dr. Aditya Dharmadhikari',
-      title: 'Scientific Officer G',
+      title: 'Scientific Officer F',
       institution: 'Nuclear and Atomic Physics, TIFR Mumbai',
       expertise: 'Photonics, Physics',
       bio: 'Prominent physicist researching ultra-short pulse laser interactions, nonlinear optics, and plasma diagnostics.',

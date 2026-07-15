@@ -77,7 +77,7 @@ export default function AboutAppliedPhysics() {
               src="/images/diat-applied-physics.jpg"
               alt="DIAT Applied Physics Department"
               fill
-              className="object-cover"
+              className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </motion.div>
         </div>

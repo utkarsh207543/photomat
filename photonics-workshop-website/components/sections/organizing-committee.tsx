@@ -20,7 +20,7 @@ const committee = [
   'Prof. Tejashree Bhave (HoD & Professor)',
   'Prof. Sangeeta Kale (Senior Professor)',
   'Prof. Suwarna Datar (Professor)',
-  'Dr. Devnath Dhirhe (Associate Professor)',
+  'Dr. Devnath Dhirhe (Professor)',
   'Dr. Shyamal Mondal (Assistant Professor)',
   'Dr. A. V. R Murthy (Assistant Professor)',
   'Dr. Pooja Agarwal (Assistant Professor)',
