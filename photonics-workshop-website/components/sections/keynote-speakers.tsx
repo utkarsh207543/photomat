@@ -46,6 +46,14 @@ const speakers = [
   },
   {
     id: 7,
+    name: 'Dr. Anirban Dhar',
+    title: 'Principal Scientist',
+    institution: 'CSIR-Central Glass & Ceramic Research Institute (CGCRI)',
+    expertise: 'Fiber Optics & Photonics Division',
+    image: '/images/speakers/anirban-dhar.jpg',
+  },
+  {
+    id: 8,
     name: 'Prof. Shailendra K. Varshney',
     title: 'Professor',
     institution: 'Department of Electronics & ECE, IIT Kharagpur',
@@ -53,7 +61,7 @@ const speakers = [
     image: '/images/speakers/shailendra-varshney.jpg',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Dr. Rakesh R. Warrier',
     title: 'Assistant Professor',
     institution: 'Electrical Engineering, NIT Calicut',

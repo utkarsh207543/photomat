@@ -46,6 +46,14 @@ export default function Speakers() {
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aditya%20Dharmadhikari-H4hS3m816OQieqmPWRqSLwYWgIDXdy.jpg'
     },
     {
+      name: 'Dr. Anirban Dhar',
+      title: 'Principal Scientist',
+      institution: 'CSIR-Central Glass & Ceramic Research Institute (CGCRI)',
+      expertise: 'Fiber Optics & Photonics Division',
+      bio: 'Principal Scientist at CSIR-Central Glass & Ceramic Research Institute (CGCRI), specializing in fiber optics, specialty optical fiber fabrication, and photonics research.',
+      image: '/images/speakers/anirban-dhar.jpg'
+    },
+    {
       name: 'Prof. Shailendra K. Varshney',
       title: 'Professor',
       institution: 'Department of Electronics & ECE, IIT Kharagpur',

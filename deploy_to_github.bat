@@ -18,11 +18,11 @@ echo [1/4] Preparing folders and copying assets...
 mkdir "%~dp0\photonics-workshop-website\public\brochure" >nul 2>&1
 mkdir "%~dp0\photonics-workshop-website\public\images\patrons" >nul 2>&1
 
-if exist "%~dp0\PhotoMat2026_Brochure.pdf" (
-    copy "%~dp0\PhotoMat2026_Brochure.pdf" "%~dp0\photonics-workshop-website\public\brochure\PhotoMat2026_Brochure.pdf" /Y >nul
+if exist "%~dp0\PhotoMat26.pdf" (
+    copy "%~dp0\PhotoMat26.pdf" "%~dp0\photonics-workshop-website\public\brochure\PhotoMat26.pdf" /Y >nul
     echo   + Brochure PDF copied successfully.
 ) else (
-    echo   [WARNING] PhotoMat2026_Brochure.pdf not found in root.
+    echo   [WARNING] PhotoMat26.pdf not found in root.
 )
 
 if exist "%~dp0\Dr BHVS Narayana Murthy.jpg" (
