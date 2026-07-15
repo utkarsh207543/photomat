@@ -64,7 +64,7 @@ export default function SensorsResearchSociety() {
             className="relative order-1 md:order-2 pb-6 pr-6"
           >
             {/* Main Group Photo Container */}
-            <div className="relative h-[300px] sm:h-[350px] md:h-[380px] w-full rounded-xl overflow-hidden shadow-2xl border border-border bg-muted">
+            <div className="relative aspect-[3/2] w-full rounded-xl overflow-hidden shadow-2xl border border-border bg-muted">
               <Image
                 src="/images/srs-group.jpg"
                 alt="Sensors Research Society Group Photo"
