@@ -87,6 +87,9 @@ export default function Registration() {
                     <p className="text-3xl font-bold text-foreground mt-2">
                       {item.fee}
                     </p>
+                    <p className="text-xs text-muted-foreground mt-1">
+                      (including GST)
+                    </p>
                   </div>
 
                   <p className="text-sm text-muted-foreground">
