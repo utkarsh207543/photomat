@@ -209,8 +209,8 @@ export default function HeroSection() {
             </button>
           </a>
           <a
-            href="/brochure/PhotoMat26.pdf"
-            download="PhotoMat26.pdf"
+            href="/brochure/PhotoMat2026.pdf"
+            download="PhotoMat2026.pdf"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-200"
           >
             Download Brochure
