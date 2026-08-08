@@ -11,7 +11,7 @@ const chiefPatrons = [
   },
   {
     name: 'Dr. Jagannath Nayak',
-    title: 'Director, CHESS Hyderabad',
+    title: 'Director General, DG MSS',
     image: '/images/patrons/nayak.jpg',
   },
 ]
