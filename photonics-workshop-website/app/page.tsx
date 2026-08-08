@@ -36,6 +36,7 @@ export default function Home() {
         <ExperimentsSection />
         <WorkshopActivities />
         <Eligibility />
+        <ChiefGuests />
         <KeynoteSpeakers />
         <OrganizingCommittee />
         <Registration />
