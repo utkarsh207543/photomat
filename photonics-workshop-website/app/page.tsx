@@ -11,6 +11,7 @@ import SensorsResearchSociety from '@/components/sections/sensors-research-socie
 import DiatOpticaChapter from '@/components/sections/diat-optica-chapter'
 import KeyTopics from '@/components/sections/key-topics'
 import ExperimentsSection from '@/components/sections/experiments'
+import ChiefGuests from '@/components/sections/chief-guest'
 import WorkshopActivities from '@/components/sections/workshop-activities'
 import Eligibility from '@/components/sections/eligibility'
 import KeynoteSpeakers from '@/components/sections/keynote-speakers'
