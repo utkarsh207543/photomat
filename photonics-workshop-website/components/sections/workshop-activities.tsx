@@ -125,7 +125,7 @@ export default function WorkshopActivities() {
           className="mt-12 p-6 bg-primary/5 border border-primary/20 rounded-lg text-center"
         >
           <p className="text-muted-foreground">
-            <span className="font-semibold text-foreground">Full Schedule Coming Soon</span> — Detailed timetables with speaker sessions and laboratory timings will be available after registration opens.
+            <span className="font-semibold text-foreground">Registration is closed!</span>
           </p>
         </motion.div>
       </div>
