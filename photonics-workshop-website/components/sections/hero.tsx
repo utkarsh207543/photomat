@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowRight, Download, Calendar, MapPin } from 'lucide-react'
+import { Download, Calendar, MapPin } from 'lucide-react'
 
 export default function HeroSection() {
   const [isCalendarOpen, setIsCalendarOpen] = useState(false)
@@ -201,12 +201,10 @@ export default function HeroSection() {
             href="/brochure/WorkshopSchedule_Photomat2026.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="min-w-fit"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto"
           >
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
-              Workshop Schedule
-              <Download className="w-5 h-5" />
-            </button>
+            Workshop Schedule
+            <Download className="w-5 h-5" />
           </a>
           <a
             href="/brochure/PhotoMat26.pdf"
