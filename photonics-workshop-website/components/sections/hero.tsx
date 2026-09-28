@@ -198,14 +198,14 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center pt-8"
         >
           <a
-            href="https://docs.google.com/forms/d/1aEwOE7AfHuu5s3RPGEr_yLUqFdJy91GAj2YuBwH7gdw/edit"
+            href="/brochure/WorkshopSchedule_Photomat2026.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="min-w-fit"
           >
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
-              Register Now
-              <ArrowRight className="w-5 h-5" />
+            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
+              Workshop Schedule
+              <Download className="w-5 h-5" />
             </button>
           </a>
           <a
