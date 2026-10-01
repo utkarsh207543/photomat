@@ -20,7 +20,6 @@ const chiefGuests = [
     title: 'Scientist-G & Director, CHESS',
     institution: 'DRDO-CHESS, Hyderabad, India',
     expertise: 'High power lasers, high speed unsteady flows, turbulent mixing, laser diagnostics, CFD techniques',
-    bio: 'Scientist-G, in DRDO-CHESS, Hyderabad, India.',
     image: '/images/speakers/DrGauravSinghal.jpeg',
   },
 ]
