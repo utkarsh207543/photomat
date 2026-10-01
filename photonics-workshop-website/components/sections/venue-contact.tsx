@@ -19,11 +19,6 @@ const coordinators = [
     phone: '+91 7259319442',
     role: 'Coordinator',
   },
-  {
-    name: 'Abhinav C.',
-    phone: '+91 7025002744',
-    role: 'Coordinator',
-  },
 ]
 
 const convenors = [
