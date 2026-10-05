@@ -209,6 +209,17 @@ export default function HeroSection() {
             </button>
           </a>
           <a
+            href="/brochure/UpdatedFinalBooklet_Photomat2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-fit"
+          >
+            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
+              Workshop Booklet
+              <Download className="w-5 h-5" />
+            </button>
+          </a>
+          <a
             href="/brochure/PhotoMat26.pdf"
             download="PhotoMat26.pdf"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-200"
