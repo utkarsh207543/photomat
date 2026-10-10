@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowRight, Download, Calendar, MapPin } from 'lucide-react'
+import { Calendar, MapPin } from 'lucide-react'
 
 export default function HeroSection() {
   const [isCalendarOpen, setIsCalendarOpen] = useState(false)
@@ -86,23 +86,22 @@ export default function HeroSection() {
       </div>
 
       <motion.div
-        className="relative z-10 max-w-4xl mx-auto text-center space-y-8 w-full"
+        className="relative z-10 max-w-6xl mx-auto text-center space-y-8 w-full"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        {/* Logo and Badge */}
+        {/* Group Photo and Workshop Badge */}
         <motion.div variants={itemVariants} className="space-y-4">
-          <div className="flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80">
-              <Image
-                src="/images/photomat26-logo.png"
-                alt="PHOTOMAT26"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
+          <div className="relative mx-auto aspect-[16/9] w-full max-w-5xl overflow-hidden rounded-2xl border border-border/60 shadow-2xl">
+            <Image
+              src="/images/photomat26-group-photo.webp"
+              alt="Group photograph of PHOTOMAT 2026 workshop participants"
+              fill
+              sizes="(max-width: 768px) 100vw, 1024px"
+              className="object-cover"
+              priority
+            />
           </div>
 
           <div className="inline-block px-4 py-2 rounded-full bg-primary/10 border border-primary/30">
@@ -192,42 +191,6 @@ export default function HeroSection() {
           </a>
         </motion.div>
 
-        {/* CTA Buttons */}
-        <motion.div
-          variants={itemVariants}
-          className="flex flex-col sm:flex-row gap-4 justify-center pt-8"
-        >
-          <a
-            href="/brochure/WorkshopSchedule_Photomat2026.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="min-w-fit"
-          >
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
-              Workshop Schedule
-              <Download className="w-5 h-5" />
-            </button>
-          </a>
-          <a
-            href="/brochure/UpdatedFinalBooklet_Photomat2026.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="min-w-fit"
-          >
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:scale-105 w-full sm:w-auto">
-              Workshop Booklet
-              <Download className="w-5 h-5" />
-            </button>
-          </a>
-          <a
-            href="/brochure/PhotoMat26.pdf"
-            download="PhotoMat26.pdf"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-200"
-          >
-            Download Brochure
-            <Download className="w-5 h-5" />
-          </a>
-        </motion.div>
       </motion.div>
     </section>
   )

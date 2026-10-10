@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { CheckCircle2 } from 'lucide-react'
 
 const categories = [
   {
@@ -126,7 +125,6 @@ export default function Registration() {
           <div className="grid md:grid-cols-2 gap-4">
             {includes.map((item, index) => (
               <div key={index} className="flex gap-3">
-                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
                 <p className="text-muted-foreground">{item}</p>
               </div>
             ))}

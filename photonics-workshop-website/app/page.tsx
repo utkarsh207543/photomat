@@ -9,16 +9,10 @@ import AboutAppliedPhysics from '@/components/sections/about-applied-physics'
 import AboutIITG from '@/components/sections/about-iitg'
 import SensorsResearchSociety from '@/components/sections/sensors-research-society'
 import DiatOpticaChapter from '@/components/sections/diat-optica-chapter'
-import KeyTopics from '@/components/sections/key-topics'
-import ExperimentsSection from '@/components/sections/experiments'
 import ChiefGuests from '@/components/sections/chief-guest'
-import WorkshopActivities from '@/components/sections/workshop-activities'
-import Eligibility from '@/components/sections/eligibility'
 import KeynoteSpeakers from '@/components/sections/keynote-speakers'
 import OrganizingCommittee from '@/components/sections/organizing-committee'
-import Registration from '@/components/sections/registration'
 import ImportantDates from '@/components/sections/important-dates'
-import VenueContact from '@/components/sections/venue-contact'
 
 export default function Home() {
   return (
@@ -33,16 +27,10 @@ export default function Home() {
         <AboutIITG />
         <SensorsResearchSociety />
         <DiatOpticaChapter />
-        <KeyTopics />
-        <ExperimentsSection />
-        <WorkshopActivities />
-        <Eligibility />
         <ChiefGuests />
         <KeynoteSpeakers />
         <OrganizingCommittee />
-        <Registration />
         <ImportantDates />
-        <VenueContact />
       </main>
 
       <Footer />

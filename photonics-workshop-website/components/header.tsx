@@ -11,9 +11,6 @@ export default function Header() {
   const navLinks = [
     { href: '#about', label: 'About' },
     { href: '#speakers', label: 'Speakers' },
-    { href: '#schedule', label: 'Activities' },
-    { href: '#registration', label: 'Registration' },
-    { href: '#contact', label: 'Contact' },
   ]
 
   return (
